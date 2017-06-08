@@ -29,6 +29,7 @@ namespace TestFun
             };
 
             AwardPrizes(participants, prizes);
+            Console.ReadKey();
         }
 
         static void AwardPrizes(IList<Participant> participants, IDictionary<int, decimal> prizes)
